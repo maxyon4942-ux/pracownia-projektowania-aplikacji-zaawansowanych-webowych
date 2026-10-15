@@ -1,6 +1,6 @@
 const addButton: HTMLButtonElement|null = document.querySelector('#todoAddButton');
 const inputTextField: HTMLInputElement|null = document.querySelector('#todoInputField');
-const todosContainer: HTMLDivElement|null = document.querySelector('#todoContainer');
+const todosContainer: HTMLDivElement = document.querySelector('#todoContainer')!;
 
 type Todo = {
     id: number;
