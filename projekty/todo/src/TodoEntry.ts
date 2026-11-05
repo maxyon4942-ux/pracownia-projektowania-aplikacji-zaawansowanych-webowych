@@ -1,4 +1,4 @@
-class TodoEntry {
+export class TodoEntry {
     id: number;
     title: string;
     description?: string;
